@@ -1,0 +1,257 @@
+/*     common section start  */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+h1,h2,h3,h4,h5,h5,h6,
+p,
+span,
+ul,
+li,
+ol{
+margin:0;
+padding:0;
+}
+a,a:hover{
+text-decoration:none;
+}
+ul{list-style-type: none;}
+img{display: block;}
+/* / / common section end / / */
+/*  header section start  */
+header{}
+header a.navbar-brand img {
+    width: 134px;
+}
+header #menu ul{}
+header #menu ul li {
+    padding: 50px 15px;
+}
+header #menu ul li a {
+    font-size: 20px;
+    color: #1D1B19;
+    display: block;
+    transition: all linear 0.4s;
+    
+    position: relative;
+}
+header #menu ul li a:hover::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    width: 42px;
+    background-color: #FF5300;
+}
+header #menu ul li a:hover{color:#FF5300 ;}
+/* // header section end  */
+/*  banner section start  */
+#banner {
+    height: 584px;
+    background-image: url(../image/young-woman-vacation-by-pool\ 1.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+}
+#banner .banner-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#banner .banner-content h1 {
+    font-size: 60px;
+    line-height: auto;
+    color: #1D1B19;
+}
+#banner .banner-content .button{}
+#banner .banner-content .button i {
+    background: #FF5300;
+    padding: 16px;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 14px;
+    margin-top: 32px;
+}
+#banner .banner-content .button span {
+    color: 18px;
+    color: #352F2B;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+/* // banner section end  */
+#service {
+    padding: 144px 0;
+}
+#service .service-wrraper {
+    margin: 0 25px 0px 0;
+}
+#service .service-wrraper .service-content {
+    width: 70%;
+}
+#service .service-wrraper .service-thum {
+    width: 30%;
+}
+#service .service-wrraper .service-content h4 {
+    font-size: 18px;
+    color: #FF5300;
+}
+#service .service-wrraper .service-content h5 {
+    font-size: 18px;
+    color: #352F2B;
+}
+/*  place section start  */
+#place {
+    padding: 0px 0 120px 0;
+}
+#place .place-content{}
+#place .place-content h2 {
+    font-size: 48px;
+    color: #1D1B19;
+    padding: 28px 0;
+}
+#place .place-content h4 {
+    font-size: 20px;
+    color: #000000;
+    padding: 0px 0 28px 0;
+}
+#place .place-content a {
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 42px;
+    background-color: #FF5301;
+}
+#place .place-content button{}
+#place .place-details .place-wrraper {
+    position: relative;
+    margin: 0 10px;
+}
+#place .place-details .place-wrraper::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(#F29C72, #fff);
+    opacity: 0.2;
+}
+#place .place-details .place-wrraper .place-thum{
+    
+}
+#place .place-details .place-wrraper .place-thum img {
+    width: 100%;
+}
+#place .place-details .place-wrraper .content {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+#place .place-details .place-wrraper .content h4 {
+    font-size: 18px;
+    color: #fff;
+}
+#place .place-details .place-wrraper .content img{
+    display: inline-block;
+}
+/* // place section end  */
+/*  travel section start  */
+.section-title{}
+.section-title h2 {
+    font-size: 48px;
+    color: #1D1B19;
+    padding-bottom: 76px;
+}
+#travel{padding: 0 0 120px 0;}
+#travel .travel-thum{}
+#travel .travel-thum img {
+    width: 100%;
+}
+#travel .travel-content{}
+#travel .travel-content h4 {
+    font-size: 18px;
+    color: #000000;
+    padding: 20px 0;
+}
+#travel .travel-content h5 {
+    font-size: 18px;
+    padding: 0px 0 12px 0;
+    color: #FFD4BF;
+}
+#travel .travel-content img {
+    display: inline-block;
+}
+/* // travel section end  */
+/*  near you section start  */
+#near-you{}
+#near-you .col-lg-3{
+    padding-bottom: 84px;
+}
+#near-you .near-wrap{}
+#near-you .near-thum{}
+#near-you .near-thum img {
+    width: 100%;
+}
+#near-you .near-content{}
+#near-you .near-content h5 {
+    font-size: 20px;
+    color: #1D1B19;
+    padding-bottom: 10px;
+}
+#near-you .near-content img {
+    display: inline-block;
+}
+/* // near you section end  */
+/*  place section start  */
+#earth {
+    padding: 0px 0 120px 0;
+}
+#earth .earth-wrraper{
+    position: relative;
+}
+#earth .earth-wrraper .earth-thum {
+    
+    margin: 0 12px;
+}
+#earth .earth-wrraper .earth-thum::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(#F29C72, #fff);
+    opacity: 0.2;
+}
+#earth .earth-wrraper .earth-thum img{
+    width: 100%;
+}
+#earth .earth-wrraper .earth-content{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+#earth .earth-content h4{
+    font-size: 20px;
+    color: #fff;
+}
+#earth .earth-content h5 {
+    font-size: 16px;
+    color: #fff;
+}
+#earth .earth-content img{
+    display: inline-block;
+}
+#earth .earth-pic {
+    margin: 0 0 12px 0;
+}
+#earth .earth-pic  img {
+    width: 116%;
+    margin: 0 auto !important;
+    margin: 0 0 0 -11px;
+}
+#earth .earth-pic-1  img {
+    width: 90%;
+    margin: 0 auto !important;
+}
+#earth .earth-pic-1 {
+    margin: 0 11px 12px 12px;
+}
+/* // place section end  */
